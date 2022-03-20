@@ -1,5 +1,18 @@
 {
   "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
     "resolveJsonModule": true
-  }
+  },
+  "include": [
+    "./scripts",
+    "./test",
+    "./typechain"
+, "helpers", "scripts/merkletree.ts", "tasks", "scripts/1-deployTol.ts", "test/test-wip/1-ERC721LazyMinTest in progress/SigMintv2.test.tsSigMintv2.test.ts", "test/test-wip/1-ERC721LazyMint.test.js", "test/test-wip/SigTest.test.ts", "test/test-wip/SigV3.test.ts", "test/test-wip/1-ERC721LazyMint.testcopy.ts", "test/test-wip/SigMint.test.t","src/parse-balance-map.ts"  ],
+  "files": [
+    "./hardhat.config.ts"
+  ]
 }
